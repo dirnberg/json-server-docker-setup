@@ -18,11 +18,11 @@ This documentation is inspired and guided by the foundational resources availabl
 
 ### Step 1: Configure Your Working Environment
 
-#### Create a Project Directory
+#### Create a Project Directory 
 1. **Open Command Prompt as Administrator**:
    - Search for "cmd" in the Start menu, right-click on Command Prompt, and select "Run as administrator".
 
-2. **Navigate to Your Desktop and Create a Directory**:
+2. **Navigate to Your Desktop (for Excample) and Create a Directory**:
    ```cmd
    cd %USERPROFILE%\Desktop
    mkdir jsonserver
@@ -109,9 +109,7 @@ curl -v "http://localhost:8080/cars?_sort=model"
 
 ### Common Pitfalls and Solutions
 
-1. **Dockerfile Naming
-
-**: Ensure the Dockerfile is named correctly without any extension like `.txt`. Incorrect file naming will prevent Docker from recognizing and using the file.
+1. **Dockerfile Naming**: Ensure the Dockerfile is named correctly without any extension like `.txt`. Incorrect file naming will prevent Docker from recognizing and using the file.
 
 2. **Using Curl in Command Prompt**: It’s essential to run `curl` commands in Command Prompt and not in PowerShell, as PowerShell handles quotation marks differently, which can cause errors in the commands.
 
