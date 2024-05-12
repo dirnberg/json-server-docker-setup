@@ -120,3 +120,5 @@ curl -v "http://localhost:8080/cars?_sort=model"
 This guide offers a thorough overview of setting up, monitoring, and interacting with a REST API using modern tools and best practices. The details provided ensure that even those new to such setups can proceed with confidence and avoid common errors.
 
 If there are any further questions or additional assistance is needed, please feel free to reach out.
+
+Documenation was written with help of ChatGPT 4.
